@@ -20,3 +20,12 @@
 # org.apache.cordova.splashscreen
 
 Plugin documentation: [doc/index.md](doc/index.md)
+
+## added features
+
++ added ios feature to set the height ratio position of loading animation in config.xml
+
+use this preference with value between 1 and 100
+
+```XML
+<preference name="LoaderHeightRatio" value="75" />
